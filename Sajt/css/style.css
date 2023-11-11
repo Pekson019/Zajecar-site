@@ -1,0 +1,293 @@
+/* Podesavanje obicnih tagova */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border-radius: 10px;
+}
+html {
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+}
+
+/* Podesavanje navigacije */
+
+.navigacija {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #0E2954;
+	color: #fff;
+}
+.nav-links {
+	display: flex;
+}
+.nav-links a {
+	color: #fff;
+	padding: 0em 1em;
+	transition: all 0.2s ease 0s;
+}
+.nav-links a:hover {
+	background-color: #4F709C;
+	padding: 0.5em 1.5em;
+	border-radius: 10px;
+}
+/* Kraj navigacije */
+
+/* Pocetak slidera */
+.slider {
+    width: 70%;
+    position: relative;
+	margin: 2em auto;
+}
+.background {
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+.slider-text {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #0E2954;
+	border-bottom-left-radius: 15px;
+	padding: 1em;
+	color: #fff;
+}
+.slide {
+    display: none;
+    max-width: 100%;
+}
+.slide.active {
+    display: block;
+}
+.dots {
+	text-align: center;
+	margin-top: 1em;
+}
+.dots i {
+	padding: 0em 1em;
+}
+.active-dots {
+	color: #72a5f2;
+}
+/* Kraj slidera */
+
+/* Pocetak container-a */
+
+.upoznaj-grad {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.kotlujevac {
+	margin-top: 2em;
+}
+.kotlujevac p{
+	text-align: justify;
+	padding: 0em 2em;
+	color: #fff
+}
+.kraljevica {
+	margin-top: 4em;
+}
+.kraljevica p{
+	text-align: justify;
+	padding: 0em 2em;
+	color: #fff
+}
+.muzej {
+	margin-top: 4em;
+}
+.muzej p{
+	padding: 0em 1em;
+	color: #fff;
+}
+.slika4 {
+	display: none
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 1em 2em;
+	color: #fff;
+}
+.timeline-item {
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    position: relative;
+}
+.timeline-content {
+    padding: 20px;
+    background: #0F2C59;
+    position: relative;
+    border-radius: 6px;
+}
+.timeline-content h3 {
+    margin-top: 0;
+}
+.timeline-content .date {
+    color: #999;
+    font-size: 14px;
+}
+.timeline-item:nth-child(even) .timeline-content {
+    background: #091c3b;
+}
+.saznaj {
+	background-color: #1B5A7A;
+	padding: 0.5em 1.5em;
+	border-radius: 15px;
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
+.saznaj:hover {
+	background-color: #4F709C;
+	padding: 0.8em 2em;
+	border-radius: 15px;
+}
+/* Kraj container-a */
+
+/* footer */
+
+.footer {
+	width: 100%;
+	margin-top: 3em;
+	background-color: #0F2C59;
+	height: 150px;
+	color: #fff;
+	padding: 1em;
+	display: flex;
+	justify-content: space-around;
+}
+.footer h2 {
+	font-size: 25px;
+}
+.kontakt {
+	align-items: center;
+}
+.kontakt p {
+	margin: 0.5em 0em;
+}
+.ostalo a {
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
+.ostalo a:hover {
+	background-color: #4F709C;
+	padding: 0.3em;
+	border-radius: 10px;
+}
+.ostalo li {
+	margin-top: 0.5em;
+}
+.autor {
+	background-color: #0F2C59;
+	color: #fff;
+	text-align: center;
+}
+.autor h2 {
+	font-size: 25px;
+}
+/* GG */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.appear {
+    opacity: 1;
+}
+@media only screen and (max-width: 1650px) {
+	.slika4 {
+		display: block;
+		margin: 2em 0em;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.upoznaj-grad {
+		width: 80%;
+	}
+	.muzej {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+	.muzej-slike {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.slika {
+		display: none;
+	}
+	.timeline {
+		text-align: center;
+		margin: 1em auto;
+	}
+	.kraljevica img {
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.nav-links a {
+		font-size: 25px;
+	}
+	.slider-btn {
+		display: none;
+	}
+	.slider {
+		width: 85%;
+	}
+	.upoznaj-grad {
+		width: 100%;
+	}
+	.kotlujevac {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.kotlujevac img {
+		width: 750px;
+		height: 350px;
+	}
+	.kotlujevac p {
+		margin: 2em 1em;
+	}
+	.kraljevica {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+	.kraljevica img {
+		width: 750px;
+		height: 350px;
+	}
+	.kraljevica p {
+		margin: 2em 1em;
+	}
+}

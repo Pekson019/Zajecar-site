@@ -1,0 +1,24 @@
+.hero {
+	background-image: url("../Slike/heroimg.jpg");
+	background-size: cover;
+	height: 90vh;
+	position: relative;
+}
+
+<div class="hero">
+		<div class="opis">
+			<p>Najstariji poznati stanovnici ovih krajeva bili su Tribali, 
+			posle njih na ovom području se spominju Mezi, u dolini Timoka pominju se još i Timahi, 
+			ali se o njima sem njihovog imena ništa ne zna. Naseljeni Sloveni u ove krajeve nazvali su se Timočani, 
+			a prve direktne vesti o Timočanima odnose se na 818. godine, kada se oni već smatraju formiranom slovenskom 
+			grupom, te iste godine oni su se odmetnuli od Bugara. Zaječar se prvi put spominje 1466. godine u turskom 
+			tefteru vezanom za stanovništvo vidinskoga pašaluka, a od XVI - XVIII veka ima malo podataka o naselju. 1806. 
+			godine stvoreni su povoljni uslovi za dizanje ustanka u ovim krajevima Karađorđe je odobrio hajduk 
+			Veljku Petroviću, knezu Milisavu i popu Radosavu da sa Timočanima i Crnorečanima dižu ustanak i posle niza 
+			uspešnih bojeva najveći deo Krajine i Zaječara je oslobođen.</p>
+		</div>
+	</div>
+
+	<img src="Slike/slider1.jpg" alt="Image 1" class="slide" width="100%" height="700px">
+        <img src="Slike/slider2.jpg" alt="Image 2" class="slide" width="100%" height="700px">
+        <img src="Slike/slider3.jpg" alt="Image 3" class="slide" width="100%" height="700px">

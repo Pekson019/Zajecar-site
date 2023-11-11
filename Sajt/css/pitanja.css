@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	box-sizing: border-box;
+	border: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.navigacija {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #0E2954;
+	color: #fff;
+}
+.nav-links {
+	display: flex;
+}
+.nav-links a {
+	color: #fff;
+	padding: 0em 1em;
+	transition: all 0.2s ease 0s;
+}
+.nav-links a:hover {
+	background-color: #4F709C;
+	padding: 0.5em 1.5em;
+	border-radius: 10px;
+}
+.odgovor {
+    display: none;
+}
+
+.container {
+    width: 40%;
+    margin: 2em auto;
+    background-color: #0E2954;
+    padding: 2em;
+    border-radius: 10px;
+    color: #fff;
+	border: 3px solid #2255a6;
+}
+.pitanje {
+    display: grid;
+    background-color: #f4f4f4;
+    padding: 1em 2em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2em 0em;
+    color: black;
+}
+
+.footer {
+    margin-top: 5em;
+	background-color: #0F2C59;
+	height: 150px;
+	color: #fff;
+	padding: 1em;
+	display: flex;
+	justify-content: space-around;
+}
+.footer h2 {
+	font-size: 25px;
+}
+.kontakt {
+	align-items: center;
+}
+.kontakt p {
+	margin: 0.5em 0em;
+}
+.ostalo a {
+	color: #fff;
+	transition: all 0.3s ease 0s;
+}
+.ostalo a:hover {
+	background-color: #4F709C;
+	padding: 0.3em;
+	border-radius: 10px;
+}
+.ostalo li {
+	margin-top: 0.5em;
+}
+.autor {
+	background-color: #0F2C59;
+	color: #fff;
+	text-align: center;
+}
+.autor h2 {
+	font-size: 25px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.appear {
+    opacity: 1;
+}

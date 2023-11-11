@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grad Zajecar</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="icon" type="image/x-icon" href="Slike/zajecar.png">
+	
+	<script src="https://kit.fontawesome.com/0c88aae72d.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url('Slike/pozadina.png');">
+
+	<div class="navigacija">
+		<div class="logo">
+			<img src="Slike/zajecar.png" width="100px" height="100px">
+		</div>
+		<div>
+			<ul class="nav-links">
+				<li><a href="#">Početna</a></li>
+				<li><a href="knjiga.html">O gradu</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="pitanja.html">Pitanja</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div style="position: absolute; top: 50%; left: 5%; cursor: pointer; background-color: #0F2C59; border-radius: 10px;
+	padding:1em; color: #fff; border: 2px solid #2255a6" class="slider-btn">
+		<i class="fa fa-arrow-left" onclick="previousSlideImage()"></i>
+	</div>
+	<div class="slider">
+        <div class="background slide" style="background-image: url('Slike/slider1.jpg');">
+			<p class="slider-text">grad Zajecar</p>
+		</div>
+		<div class="background slide" style="background-image: url('Slike/slider2.jpg'); background-size: cover;">
+			<p  class="slider-text">Kraljevica</p>
+		</div>
+		<div class="background slide" style="background-image: url('Slike/slider3.jpg');">
+			<p  class="slider-text">Popova plaza</p>
+		</div>
+
+		<div class="dots">
+			<i class="fa fa-circle"></i>
+			<i class="fa fa-circle"></i>
+			<i class="fa fa-circle"></i>
+		</div>
+	</div>
+	<div style="position: absolute; top: 50%; right: 5%; cursor: pointer; background-color: #0F2C59; border-radius: 10px;
+	padding:1em; color: #fff;  border: 2px solid #2255a6" class="slider-btn">
+		<i class="fa fa-arrow-right" onclick="nextSlideImage()"></i>
+	</div>
+
+
+	<div style="margin-top: 2em; background-color: #0F2C59;">
+		<h1 style="text-align: center; color: #fff; padding: 1em;">Upoznajte Zajecar</h1>
+	</div>
+	
+	<div class="upoznaj-grad fade-in">
+	
+		<div class="kotlujevac flex fade-in">
+			<img src="Slike/ktl.jpg">
+			<p style="background-color: #0F2C59; margin-left: 1em; padding: 1em; border-radius: 10px;">Kotlujevac je jedna od gradskih opština Zaječara i ima oko 18.000 stanovnika. 
+			Čine je nekoliko urbanih gradskih četvrti, kao što su:Ključ 1,2,3 i 4, zatim Živinarnik, Beli Breg, 
+			Zvezdanska krivina.
+			<br><br><a href="o-nama.html" class="saznaj">Saznaj vise</a></p>
+			
+		</div>
+		
+		<div class="kraljevica flex fade-in">
+			<p style="background-color: #0F2C59; margin-right: 1em; padding: 1em; border-radius: 10px">Nedaleko od samog centra Zaječara, nalazi se park šuma Kraljevica, mesto susreta 
+			ljubitelja sporta, rekreativaca i građana koji vole da se nadišu čistog, šumskog vazduha. 
+			Ova „pluća grada“ pružaju aktivan sadržaj tokom svih godišnjih doba. Tokom zimskih meseci, 
+			ljubitelji skijanja imaju mogućnost da uživaju u svom omiljenom sportu. Dugačka 650 metara, sa ski 
+			liftom kapaciteta 1173 skijaša po satu, ski staza pruža mogućnost i skijanja noću, kao i veštačkog 
+			osvežavanja. Mesto gde se osim srpskog jezika čuju i drugi jezici, pruža zadovoljstvo i održava aktivnim 
+			kako žitelje samog grada, tako i sve ostale koje put tokom zime dovede u Zaječar.
+			<br><br><a href="o-nama.html" class="saznaj">Saznaj vise</a></p>
+			<img src="Slike/kraljevica.jpg" width="320px" height="230px">
+			
+		</div>
+		
+		<div class="muzej flex fade-in">
+			<div class="flex-column muzej-slike">
+					<img src="Slike/muzej2.jpg" width="600px" height="350px" style="margin-bottom: 1em;">
+					<img src="Slike/muzej3.jpg" alt="" width="600px" height="350px" class="slika">
+					<img src="Slike/muzej4.jpg" alt="" class="slika4" width="600px" height="350px">
+			</div>
+			<div class="muzej-content flex-column">
+				<div>
+					<p>Одељење историје зајечарског музеја почело је са радом 
+						1951. године - исте године када је музеј основан.</p>
+				</div>
+				
+				<div class="timeline fade-in">
+					<div class="timeline-item">
+						<div class="timeline-content">
+							<h3>Otkrivanje natpisa:</h3>
+							<p>др Драгослав Срејовић отркио натпис FELIX ROMULIANA назив резиденције римског цара Гаја Галерија Валерија Максимијана (297–311)</p>
+							<span class="date">23. јун 1984. године</span>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-content">
+							<h3>Unesco:</h3>
+							<p>На 31. седници УНЕСКО FELIX ROMULIANA уврштена је на листу светске културне баштине</p>
+							<span class="date">2007. година</span>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-content">
+							<h3>Rekonstrukcija:</h3>
+							<p>Реконструкција историјског одељења и нова поставка са акцентом на личности које су се својим радом издвојиле из локалне средине и утицале на живот у читавој држави, попут Адама Богосављевића, Николе Пашића, Ђорђа Генчића и других.</p>
+							<span class="date">2010. година</span>
+						</div>
+					</div>
+						
+					</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<div class="footer fade-in">
+	
+		<div class="kontakt">
+			<h2 style="text-decoration: underline;">Kontaktirajte nas:</h2>
+			<p class="flex" style="margin-top: 1em;"><span class="material-symbols-outlined">mail</span> <u> Email:</u> zajecar@gmail.com</p>
+			<p class="flex" style="align-items: center;"><span class="material-symbols-outlined">call</span><u> Telefon:</u> 0600 423 423 </p>
+			<p class="flex"><span class="material-symbols-outlined">location_on</span><u>Adresa:</u> Trg Oslobodjenja, Zajecar</p>
+		</div>
+		
+		<div class="ostalo">
+			<h2 style="text-decoration: underline;">Ostalo:</h2>
+			<ul style="margin-top: 1em;">
+				<li><a href="#">O nama</a></li>
+				<li><a href="#">Galerija</a></li>
+				<li><a href="kontakt.html">Postavite nam pitanje</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="autor fade-in">
+		<h2>sajt radio: Petar Djordjevic E-44</h2>
+	</div>
+
+		
+	
+	<script src="js/index.js"></script>
+	
+</body>
+</html>
